@@ -1,0 +1,102 @@
+%------------------------------------------------
+% Original Template by Alessandro Plasmati
+% Email: alessandro.plasmati@gmail.com
+% Edited by: Rodrigo Brito (www.rodrigobrito.net)
+%------------------------------------------------
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{marvosym}
+\usepackage{fontspec}
+\usepackage{xunicode,xltxtra,url,parskip}
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo}
+\usepackage{supertabular}
+\usepackage{titlesec}
+
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS (OpenSans)
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[
+SmallCapsFont =regular.ttf,
+BoldFont = bold.ttf,
+ItalicFont = italic.ttf
+]
+{regular.ttf}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+	{\Huge Rodrigo Ferreira de Brito
+}\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+\section{Dados Pessoais}
+
+\begin{tabular}{rl}
+Idade & 22 anos\\
+Endereço & Rua Ipê Roxo, 73, Vila Francisco de Moura - Sabará/MG\\    
+Telefones & (31) 3672-6290 / (31) 98377-7950\\
+E-mail & contato@rodrigobrito.net\\
+Portfólio & www.rodrigobrito.net\\
+\end{tabular}
+
+\section{Experiência}
+\begin{tabular}{r|p{11cm}}
+	\emph{Atual} & Estágio em desenvolvimento Full-Stack \\
+	\textsc{Jul 2015}&\emph{\textbf{Prefeitura Municipal de Sabará}}\\
+		 &\footnotesize{Análise e desenvolvimento do Sistema Integrado da Guarda Municipal de Sabará (SIGMA). As atividades envolvem levantamento de requisitos, desenvolvimento de software e testes. Atuação com tecnologias web como PHP, MySQL, HTML5, CSS3, Angular JS, Laravel, Git e gerência de servidores Linux.}\\
+	\multicolumn{2}{c}{} \\
+	\textsc{Mai 2013} & Instrutor Freelancer de Informática \\
+		 \textsc{Jun 2011}&\emph{\textbf{Microlins}}\\
+		 &\footnotesize{Responsável por ministrar as disciplinas Informática Básica, Montagem e Manutenção e Rede Estruturada.}\\
+	\multicolumn{2}{c}{} \\
+	\textsc{Fev 2011} & Estágio em desenvolvimento Java\\
+		\textsc{Ago 2010}&\emph{\textbf{PF\&J Automação Bancária}}\\
+		& \footnotesize{Desenvolvimento de aplicações Java para Desktop, atuação com tecnologias como Hibernate, C3P0, Mysql, entre outras.}
+\end{tabular}
+
+\section{Formação}
+\begin{tabular}{r|p{11cm}}
+	\textsc{Atual} & Bacharelado em Sistemas de Informação - 8º Período\\
+	\textsc{Jan 2013} & \textbf{Instituto Federal de Minas Gerais - IFMG}\\
+	&\small\emph{Previsão de formatura: Dezembro/2016}\\
+	\multicolumn{2}{c}{} \\
+	\textsc{Jun 2011}& Curso Técnico em Informática Industrial \\
+	\textsc{Jan 2010}& \textbf{Colégio Augustus}
+\end{tabular}
+
+\section{Formação Complementar}
+Idioma, Inglês - Luziana Lanna, \textsc{2014} (108 horas).\\
+Profissionalizante, Rotinas Administrativas - Microlins, \textsc{2010} (72 horas).\\
+Programa de Iniciação Científica em Matemática - UFMG, 2010.\\
+Programa de Iniciação Científica em Matemática - UFMG, 2009.\\
+Curso de Comunicação e Jornalismo – Conselho Municipal da Juventude de Sabará, 2007 (18 horas).
+
+\section{Conhecimento Técnico}
+\begin{tabular}{rl}
+	Softwares: & Photoshop, Ilustrator, Eclipse, Sublime, Git.\\
+	Linguagens: & Java, PHP, C/C++, NodeJS, Python, SQL, HTML5, CSS3, JS.\\
+	Frameworks/Libs: & Laravel, QT, Hibernate, Spring, Angular JS.\\
+\end{tabular}
+
+\end{document}
