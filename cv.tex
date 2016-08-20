@@ -4,7 +4,8 @@
 % Edited by: Rodrigo Brito (www.rodrigobrito.net)
 %------------------------------------------------
 \documentclass[a4paper,10pt]{article}
-
+\usepackage[margin=1in]{geometry}
+\addtolength{\voffset}{0cm}
 \usepackage{marvosym}
 \usepackage{fontspec}
 \usepackage{xunicode,xltxtra,url,parskip}
@@ -28,11 +29,11 @@ ItalicFont = italic.ttf
 {regular.ttf}
 
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{3pt}{3pt}
+\titlespacing{\section}{0pt}{2pt}{2pt}
 
 \usepackage[absolute]{textpos}
 
-\setlength{\TPHorizModule}{30mm}
+\setlength{\TPHorizModule}{20mm}
 \setlength{\TPVertModule}{\TPHorizModule}
 \textblockorigin{2mm}{0.65\paperheight}
 \setlength{\parindent}{0pt}
@@ -44,6 +45,7 @@ ItalicFont = italic.ttf
 
 \font\fb=''[cmr10]'' %for use with \LaTeX command
 
+\vspace*{-1cm}
 %--------------------TITLE-------------
 \par{\centering
 	{\Huge Rodrigo Ferreira de Brito
@@ -61,10 +63,10 @@ Portfólio & www.rodrigobrito.net\\
 \end{tabular}
 
 \section{Experiência}
-\begin{tabular}{r|p{11cm}}
+\begin{tabular}{r|p{13.1cm}}
 	\emph{Atual} & Estágio em desenvolvimento Full-Stack \\
 	\textsc{Jul 2015}&\emph{\textbf{Prefeitura Municipal de Sabará}}\\
-		 &\footnotesize{Análise e desenvolvimento do Sistema Integrado da Guarda Municipal de Sabará (SIGMA). As atividades envolvem levantamento de requisitos, desenvolvimento de software e testes. Atuação com tecnologias web como PHP, MySQL, HTML5, CSS3, Angular JS, Laravel, Git e gerência de servidores Linux.}\\
+		 &\footnotesize{Análise e desenvolvimento do Sistema Integrado da Guarda Municipal de Sabará (SIGMA). As atividades envolvem levantamento de requisitos, desenvolvimento de software e testes. Atuação com tecnologias WEB como PHP, MySQL, HTML5, CSS3, Angular JS, Laravel, Git e gerência de servidores Linux.}\\
 	\multicolumn{2}{c}{} \\
 	\textsc{Mai 2013} & Instrutor Freelancer de Informática \\
 		 \textsc{Jun 2011}&\emph{\textbf{Microlins}}\\
@@ -76,7 +78,7 @@ Portfólio & www.rodrigobrito.net\\
 \end{tabular}
 
 \section{Formação}
-\begin{tabular}{r|p{11cm}}
+\begin{tabular}{r|p{13.1cm}}
 	\textsc{Atual} & Bacharelado em Sistemas de Informação - 8º Período\\
 	\textsc{Jan 2013} & \textbf{Instituto Federal de Minas Gerais - IFMG}\\
 	&\small\emph{Previsão de formatura: Dezembro/2016}\\
@@ -90,7 +92,7 @@ Idioma, Inglês - Luziana Lanna, \textsc{2014} (108 horas).\\
 Profissionalizante, Rotinas Administrativas - Microlins, \textsc{2010} (72 horas).\\
 Programa de Iniciação Científica em Matemática - UFMG, 2010.\\
 Programa de Iniciação Científica em Matemática - UFMG, 2009.\\
-Curso de Comunicação e Jornalismo – Conselho Municipal da Juventude de Sabará, 2007 (18 horas).
+Curso de Comunicação e Jornalismo - Conselho Municipal da Juventude de Sabará, 2007 (18 horas).
 
 \section{Conhecimento Técnico}
 \begin{tabular}{rl}
@@ -99,4 +101,7 @@ Curso de Comunicação e Jornalismo – Conselho Municipal da Juventude de Sabar
 	Frameworks/Libs: & Laravel, QT, Hibernate, Spring, Angular JS.\\
 \end{tabular}
 
+\section{Publicações}
+BRITO, R. F.; GOMES, B. N.; SILVA, A. A. F. Um estudo de caso abordando o problema de localização de concentradores com alocação simples em um estado brasileiro. \textbf{XXXVI Iberian Latin American Congress on Computational Methods in Engineering}. 2015, Rio de Janeiro.\\ \\
+BRITO, R. F.; Gomes, B. N.; CAMARGO, R. S. Uma eficiente heurística para o projeto de redes eixo-raio: um estudo de caso para as cidades de Minas Gerais. \textbf{XLVII Simpósio Brasileiro de Pesquisa Operacional}. 2015, Porto de Galinhas.
 \end{document}
