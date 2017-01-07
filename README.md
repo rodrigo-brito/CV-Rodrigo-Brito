@@ -1,5 +1,5 @@
 # Rodrigo Ferreira de Brito
 ### Desenvolvedor Full-Stack
-[Visualizar Currículo](cv.pdf)
+[Visualizar Currículo](Rodrigo Ferreira de Brito.pdf)
 
 
